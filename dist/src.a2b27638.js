@@ -128,23 +128,8 @@ var sectors = [{
   color: '#fb0',
   label: '1'
 }, {
-  color: '#0fb',
-  label: '16'
-}, {
-  color: '#b0f',
-  label: '13'
-}, {
-  color: '#f0b',
-  label: '12'
-}, {
   color: '#bf0',
   label: '5'
-}, {
-  color: '#f82',
-  label: '15'
-}, {
-  color: '#0bf',
-  label: '14'
 }, {
   color: '#fb0',
   label: '7'
@@ -152,23 +137,14 @@ var sectors = [{
   color: '#0fb',
   label: '6'
 }, {
-  color: '#b0f',
-  label: '17'
-}, {
   color: '#f0b',
   label: '2'
-}, {
-  color: '#bf0',
-  label: '14'
 }, {
   color: '#fb0',
   label: '4'
 }, {
   color: '#0fb',
   label: '9'
-}, {
-  color: '#b0f',
-  label: '17'
 }, {
   color: '#f0b',
   label: '3'
@@ -290,7 +266,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56258" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53756" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
