@@ -51,7 +51,7 @@ body {
   width: 50%;
   height: 50%;
   margin-left: -13.7%;
-  margin-top: -18.3%;
+  margin-top: -16%;
   background: #fff;
   color: #fff;
   box-shadow: 0 0 0 8px currentColor, 0 0px 15px 5px rgba(0, 0, 0, 0.6);
@@ -78,4 +78,9 @@ body {
 
 #table {
   color: #fff;
+}
+
+#topic {
+  padding-right: 20px;
+  
 }
